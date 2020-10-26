@@ -44,14 +44,9 @@ public class Movie {
 		// "this." is required when there is ambiguity
 		this.category = category;
 	}
-
-	public String getUserChoiceTitle(String userChoice) {
-		return title;
-	}
-	
-	
+		
 	public String toString() {
-		return "Movie(title=" + title + ",category=" + category + ")";
+		return "Title: " + title;
 	}
 	
 }
